@@ -12,6 +12,7 @@ import foodsRoutes  from './routes/foods.js';
 import mealsRoutes  from './routes/meals.js';
 import diaryRoutes  from './routes/diary.js';
 import activityRoutes from './routes/activity.js';
+import fastsRoutes    from './routes/fasts.js';
 import exercisesRoutes from './routes/exercises.js';
 import uploadRoutes from './routes/upload.js';
 import mealieRoutes    from './routes/mealie.js';
