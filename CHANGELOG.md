@@ -7,6 +7,10 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
 
+### Fixed
+
+- **Vite LAN / blank-boot hang.** Dev server now binds all interfaces, allows any Host header, and sends CORS so a second PC on the LAN can load the unbundled module graph. IndexedDB open is timed out after 8s instead of leaving a blank `#app`, and a visible boot status is shown until the Svelte app mounts.
+
 ---
 
 ## [1.1.2] - 2026-08-08
